@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	 int n, i, num, lst;
+	 printf("enter the number of numbers to be entered\n");
+	 scanf("%d",&n);
+	 printf("Enter number: ");
+	 scanf("%d", &num);
+	 lst = num;
+	 i=2;
+	 while(i<=n)
+	 {
+	  printf("Enter number: ");
+	  scanf("%d", &num);
+	  if(num < lst)
+	  {
+	   lst = num;
+	  }
+	  i++;
+	 }
+	 printf("\lowest number is = %d", lst);
+	return 0;
+}
