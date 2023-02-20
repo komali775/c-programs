@@ -6,10 +6,10 @@ int main()
 	int arr[50], i, Size;
 	int first, second;
 	
-	printf("\n Please Enter the Number of elements in an array  :  ");
+	printf("\n Enter the Number of elements in an array  :  ");
 	scanf("%d", &Size);
 	
-	printf("\n Please Enter %d elements of an Array \n", Size);
+	printf("\nEnter %d elements of an Array \n", Size);
 	for (i = 0; i < Size; i++)
 	{
 		scanf("%d", &arr[i]);
@@ -29,7 +29,7 @@ int main()
 			second = arr[i];
 		}	
 	}
-	printf("\n The Second Largest Number in this Array =  %d", second);
+	printf("\n The Second highest Number in this Array =  %d", second);
 	
 	return 0;
 }
